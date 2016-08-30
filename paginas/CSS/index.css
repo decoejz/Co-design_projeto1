@@ -5,16 +5,27 @@
     float: left;
 }
  
-.menu_dir{
+.menu_esq{
 	border: 1px solid black;
-    width: 250px;
+    width: 500px;
     padding: 5px;
     float: left;
+    height: 500px; /* 100% Full-height */
+    position: fixed; /* Stay in place */
+    top: 20;
+    left: 0;
+    margin: 15px 5px;
+   
+ 
+}
+
 }
 
 footer {
     border: 1px solid black;
-    position: relative;
+    position: fixed;
+    bottom :0;
+    width: 100%;
     height: 44px;
 }
 
