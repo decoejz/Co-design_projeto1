@@ -1,4 +1,23 @@
-div {
-    width: 1280px;
-    margin: auto;
+.menutopo {
+    border: 1px solid black;
+    width: 250px;
+    padding: 5px;
+    float: left;
+}
+ 
+.menu_dir{
+	border: 1px solid black;
+    width: 250px;
+    padding: 5px;
+    float: left;
+}
+
+footer {
+    border: 1px solid black;
+    position: relative;
+    height: 44px;
+}
+
+.copyright {
+    margin: 15px 5px;
 }
