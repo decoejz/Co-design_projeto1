@@ -1,25 +1,39 @@
-.menutopo {
+/*header fixo para todas as páginas*/
+header ul {
     border: 1px solid black;
-    width: 250px;
-    padding: 5px;
-    float: left;
+    position: fixed;
+    width: 100%;
 }
- 
-.menu_esq{
+
+.menutopo {
+    padding: 5px;
+    display: inline-block;
+}
+/*Fim do header*/
+
+/*Main*/
+.menu_esq {
 	border: 1px solid black;
     width: 250px;
     padding: 5px;
-    float: left;
     height: 500px; 
     position: fixed; 
-    top: 20;
+    top: 20px;
     left: 0;
     margin: 15px 5px;
-   
- 
+    display: inline-block;
 }
 
+.especifico {
+    padding: 5px;
+    height: 500px;
+    position: relative;
+    right: 0;
+    display: inline-block;
+    margin: 35px 50px 0 270px;
+}
 
+/*Footer fixo para todas as páginas*/
 footer {
     border: 1px solid black;
     bottom: 0px;
@@ -29,13 +43,35 @@ footer {
     float:left;
 }
 
+.menubottom {
+    width: 250px;
+    padding: 5px;
+    float: left;
+}
+
+.github {
+    position: absolute;
+    top: 40px;
+    right: 30px;
+}
+
 .copyright {
-    margin: 15px 5px;
+    margin: 20px 5px;
 }
 
-.insper{
-	position: absolute;
-    top: 10px;
-    right: 10px;
+.insper {
+	/*position: absolute;
+    top: 20px;
+    right: 15px;*/
+    position: absolute;
+    top: 15px;
+    left: 15px;
 
 }
+
+.facebook {
+    position: absolute;
+    top: 40px;
+    right: 70px;
+}
+/*Fim do footer*/
