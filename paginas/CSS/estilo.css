@@ -4,6 +4,7 @@ header ul {
     position: fixed;
     width: 100%;
     z-index: 1;
+    background-color: #EE4630;
 }
 
 .menutopo {
@@ -23,7 +24,47 @@ header ul {
     left: 0;
     margin: 14px 5px 0 0;
     display: inline-block;
+    background-color: #B3ABA5;
 }
+
+/*teste*/
+
+.menu {
+	float: left;
+	min-width: 150px;
+	margin: 0;
+	padding: 0;
+	color: #000000;
+	background-color: #B3ABA5;
+	list-style: none;
+}
+
+.menu_principal {
+	padding: 0.5rem;
+	position: relative;
+	transition: color .5s, background-color .5s;
+}
+
+.menu_principal:hover {
+	color: #FFFFFF;
+	background-color: #000000;
+	cursor: pointer;
+}
+
+.submenu {
+	visibility: hidden;
+	position: absolute;
+	top: -1px;
+	left: 100%;
+}
+
+.menu_principal:hover .submenu {
+	visibility: visible;
+	border: 1px solid black;
+}
+
+
+/*fim do teste*/
 
 .especifico {
     padding: 5px;
@@ -32,6 +73,8 @@ header ul {
     right: 0;
     display: inline-block;
     margin: 35px 50px 0 265px;
+    background-color: #F3F3F3;
+    width: 100%
 }
 
 /*Footer fixo para todas as páginas*/
@@ -43,6 +86,7 @@ footer {
     height: 100px;
     float:left;
     z-index: 1;
+    background-color: #EE4630;
 }
 
 .menubottom {
