@@ -4,7 +4,7 @@ header ul {
     position: fixed;
     width: 100%;
     z-index: 1;
-    background-color: #EE4630;
+    background-color: #f20700;
 }
 
 .menutopo {
@@ -24,7 +24,7 @@ header ul {
     left: 0;
     margin: 14px 5px 0 0;
     display: inline-block;
-    background-color: #B3ABA5;
+    background-color: #B2AAA4;
 }
 
 /*teste*/
@@ -35,7 +35,7 @@ header ul {
 	margin: 0;
 	padding: 0;
 	color: #000000;
-	background-color: #B3ABA5;
+	background-color: #B2AAA4;
 	list-style: none;
 }
 
@@ -73,7 +73,7 @@ header ul {
     right: 0;
     display: inline-block;
     margin: 35px 50px 0 265px;
-    background-color: #F3F3F3;
+    background-color: #F2F2F2;
     width: 100%
 }
 
@@ -86,7 +86,7 @@ footer {
     height: 100px;
     float:left;
     z-index: 1;
-    background-color: #EE4630;
+    background-color: #f20700;
 }
 
 .menubottom {
