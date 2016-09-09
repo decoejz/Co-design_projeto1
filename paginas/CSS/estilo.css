@@ -120,6 +120,7 @@ footer {
 /*Fontes*/
 .titulo {
 	font-family: 'Francois One', sans-serif;
+	cursor: pointer;
 }
 
 .m_e{
@@ -145,4 +146,12 @@ footer {
 
 .legenda {
 	font-size: 11px;
+}
+
+em {
+    font-style: italic;
+}
+
+strong {
+    font-style: bold;
 }
