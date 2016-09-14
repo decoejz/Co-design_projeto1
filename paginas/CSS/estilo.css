@@ -13,8 +13,9 @@ header ul {
 }
 
 .menutopo {
-    padding: 5px;
+    padding: 5px 0px 0px 15px;
     display: inline-block;
+
 }
 /*Fim do header*/
 
@@ -136,6 +137,7 @@ footer {
 
 .simbolo {
 	font-size: 36px;
+
 }
 
 .unico {
@@ -155,6 +157,16 @@ footer {
 	font-size: 11px;
 }
 
+.home_icon {
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    cursor: pointer;
+    height: 40px;
+    width: 40px;
+    padding: 5px 5px 5px 5px;
+}
+
 em {
     font-style: italic;
 }
@@ -166,4 +178,5 @@ strong {
 p {
    font-family: 'Open Sans', sans-serif; 
    font-size: 15px
+   line-height: 135%
 }
