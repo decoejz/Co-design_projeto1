@@ -74,7 +74,7 @@ header ul {
     right: 0;
     display: inline-block;
     margin: 35px 50px 100px 235px;
-    max-width: 650px;
+    max-width: 702px;
     min-width: 500px;
     line-height: 135%;
 }
@@ -141,7 +141,7 @@ footer {
 }
 
 .unico {
-	font-size: 24px;
+	font-size: 30px;
 }
 
 .normais {
@@ -180,4 +180,3 @@ p {
    font-size: 15px
    line-height: 135%
 }
-
