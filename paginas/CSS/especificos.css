@@ -14,4 +14,6 @@
 	display: inline-block;
 	cursor: pointer;
 	max-width: 10px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 11px;
 }
