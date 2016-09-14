@@ -71,8 +71,8 @@ header ul {
     position: relative;
     right: 0;
     display: inline-block;
-    margin: 35px 50px 0 265px;
-    width: 1000px;
+    margin: 35px 50px 60px 265px;
+    width: relative;/*1000px;*/
 }
 
 /*Footer fixo para todas as páginas*/
