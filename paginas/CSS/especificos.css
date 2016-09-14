@@ -8,10 +8,11 @@
 .foto_item {
 	display: inline-block;
 	cursor: pointer;
+	padding: 5px 5px 5px 5px;
 }
 
 .nome_item {
-	display: inline-block;
+	display: block;
 	cursor: pointer;
-	max-width: 10px;
+	max-width: 15rem;
 }

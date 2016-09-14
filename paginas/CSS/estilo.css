@@ -127,6 +127,7 @@ footer {
 .titulo {
 	font-family: 'Francois One', sans-serif;
 	cursor: pointer;
+    line-height: 175%
 }
 
 .m_e{
@@ -165,4 +166,5 @@ strong {
 p {
    font-family: 'Open Sans', sans-serif; 
    font-size: 15px
+   line-height: 135%
 }
