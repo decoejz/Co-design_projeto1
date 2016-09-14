@@ -67,13 +67,14 @@ header ul {
 }
 
 .especifico {
-    padding: 20px 0px 8px 8px;
+    padding: 50px 0px 8px 8px;
     height: 538px;
     position: relative;
     right: 0;
     display: inline-block;
-    margin: 35px 50px 60px 265px;
-    width: relative;/*1000px;*/
+    margin: 35px 50px 100px 235px;
+    max-width: 650px;
+    min-width: 500px;
     line-height: 135%;
 }
 
