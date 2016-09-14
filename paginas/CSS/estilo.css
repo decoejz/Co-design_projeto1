@@ -7,6 +7,7 @@ header ul {
     border: 1px solid black;
     position: fixed;
     width: 100%;
+    height: 75px;
     z-index: 1;
     background-color: #f20700;
 }
@@ -20,8 +21,8 @@ header ul {
 /*Main*/
 .menu_esq {
 	border: 1px solid black;
-    width: 251px;
-    padding: 5px;
+    width: 210px;
+    padding: 45px 10px 5px 15px;
     height: 100%; 
     position: fixed; 
     top: 20px;
@@ -66,13 +67,14 @@ header ul {
 }
 
 .especifico {
-    padding: 15px 0px 5px 0px;
+    padding: 20px 0px 8px 8px;
     height: 538px;
     position: relative;
     right: 0;
     display: inline-block;
     margin: 35px 50px 60px 265px;
     width: relative;/*1000px;*/
+    line-height: 135%;
 }
 
 /*Footer fixo para todas as páginas*/
@@ -156,5 +158,10 @@ em {
 }
 
 strong {
-    font-style: bolder;
+    font-weight: bold;
+}
+
+p {
+   font-family: 'Open Sans', sans-serif; 
+   font-size: 15px
 }

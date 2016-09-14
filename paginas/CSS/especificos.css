@@ -1,7 +1,8 @@
 .itens {
 	position: relative;
-	display: block;
+	display: inline;
 	float: left;
+	padding: 0 0 10px 2px;
 }
 
 .foto_item {
