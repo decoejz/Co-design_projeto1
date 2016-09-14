@@ -14,5 +14,10 @@
 .nome_item {
 	display: block;
 	cursor: pointer;
+	max-width: 10px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 15px;
+	font-weight: bold;
 	max-width: 15rem;
+	padding: 0px 5px 5px 5px;
 }
