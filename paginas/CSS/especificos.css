@@ -1,0 +1,15 @@
+.itens {
+	position: relative;
+	display: block;
+	float: left;
+}
+
+.foto_item {
+	display: inline-block;
+	cursor: pointer;
+}
+
+.nome_item {
+	display: inline-block;
+	cursor: pointer;
+}
