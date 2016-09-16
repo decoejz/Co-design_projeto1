@@ -68,7 +68,7 @@ header ul {
 }
 
 .especifico {
-    padding: 50px 0px 10px 8px;
+    padding: 50px 0px 35rem 8px;
     max-height: 95rem;
     position: relative;
     right: 0;
@@ -104,8 +104,9 @@ footer {
 }
 
 .copyright {
-    margin: 1rem 30rem;
-    min-width: 15rem;
+	position: absolute;
+	top: 35%;
+	left: 40%;
 }
 
 .insper {
