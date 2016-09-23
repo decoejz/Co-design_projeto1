@@ -182,3 +182,11 @@ p {
    font-size: 15px
    line-height: 135%
 }
+
+.opacidade{
+    opacity: 1;
+}
+
+.opacidade:hover {
+    opacity: 0.2;
+}
