@@ -53,17 +53,6 @@ header ul {
 	color: #FFFFFF;
 	background-color: #000000;
 	cursor: pointer;
-}
-
-.submenu {
-	visibility: hidden;
-	position: absolute;
-	top: -1px;
-	left: 100%;
-}
-
-.menu_principal:hover .submenu {
-	visibility: visible;
 	border: 1px solid black;
 }
 
